@@ -74,6 +74,52 @@ h2{
     background: linear-gradient(135deg,#f0b7d0,#ccbea9);
 }
 
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 16px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #fl {
+        float: none;
+        display: block;
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+        border-radius: 30px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card {
+        width: 80%;
+        max-width: 350px;
+    }
+
+}
+
 
 
 
